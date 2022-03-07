@@ -21,12 +21,12 @@ var scoreButtonEl = document.querySelector("#h-button")
 
 scoreButtonEl.addEventListener("click", insertScore);
 
-function insertScore() {
+function insertScore(event) {
     event.preventDefault();
     var highScoreEl = document.createElement("li");
     highScoreEl.textContent = nameInputEl.value;
     // highScoreEl.className = " "; add back after style
-    scoreListEl.
+    scoreListEl.appendChild(highScoreEl);
 };
 
 
