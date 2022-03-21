@@ -40,9 +40,45 @@ var timerStart = function() {
     }, 1000);
 }
 
-// Highscore Functions
+// Questions Container
+var questionList = {
+    // Question Arrays
+    questionArrays: [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+    ],
+    // Correct Answer Array
+    correctAnswers: [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+    ],
+    // Wrong answers nested arrray
+    incorrectAnswers: [
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+        ["wrong","wrong","wrong"],
+    ]
 
-scoreButtonEl.addEventListener("click", insertScore);
+
+
+}
+
+// Highscore Functions
 
 function insertScore(event) {
     event.preventDefault();
@@ -62,6 +98,7 @@ var startQuiz = function(event) {
 
 // Button Handlers
 startButtonEl.addEventListener("click", startQuiz); // Quiz Start
+scoreButtonEl.addEventListener("click", insertScore); // Highscore Submit Button
 
 
 
