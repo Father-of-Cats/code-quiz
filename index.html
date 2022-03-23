@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/">
+    <link rel="stylesheet" href="./assets/style/style.css">
     <title>Coding Quiz</title>
 </head>
 <body>
 
     <!-- Header -->
     <header>
-<a href="#">Highscore!</a>
-<p class="timer">Time</p>
+<p id="timer">Time</p>
     </header>
 
     <!-- Body -->
@@ -22,30 +21,28 @@
         <div>
             <p id="q-text">
                 Try to answer the following coding questions! There is a time limit and each question will take time away!! Goodluck!
-                <ul id="quiz-list">
+                <ul id="q-list">
                 </ul>
             </p>
         </div>
 
         <!-- Start Button -->
-        <button id="startbutton">Start Quiz!</button>
+    <button id="startbutton">Start Quiz!</button>
     
-    
-    <section >
-            <p>Your Score was <span id="score"> Number! </span></p>
+        <!-- Correct/Wrong Alert Container -->
+    <div id="cw-box"> </div>  
+
+    <!-- Highscore Inputer -->
+    <section class="scorebox">
             <input id="h-name" type="text" name="name" placeholder="Enter Your Name">
             <button id="h-button">Submit!</button>
         </form>
-        <div>
-            <h2>High Scores!</h2>
+        <div class="scorelistbox">
         <ul id="h-list">
 
         </ul>
         </div>
     </section>
-    
-    
-    
     
     
     </main>

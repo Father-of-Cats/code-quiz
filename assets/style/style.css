@@ -1,0 +1,132 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 5%;
+}
+
+/* Main Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 12%;
+    margin-top: 60px;
+}
+
+main ul {
+    width: 750px;
+}
+
+main h2 {
+    font-size: 32px;
+}
+
+main #q-text {
+    font-size: 18px;
+    flex-basis: 100%;
+}
+
+main ul {
+    list-style: none;
+}
+
+#startbutton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#startbutton:hover {
+    background-color: orange;
+}
+
+/* Question Styles */
+
+.answer-item {
+    background-color: blue;
+    color: lavender;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 24px;
+    width: 300px;
+    text-align: left;
+}
+
+.answer-item:hover {
+    background-color: orange;
+}
+
+/* Correct/Incorrect Announcement Box */
+#cw-box {
+    padding: 12px 12%;
+    margin-top: 20px;
+}
+
+#cw-box h3 {
+    border-top: 1px solid grey;
+    font-style: italic;
+    font-size: 24px;
+    color: grey;
+    padding-top: 20px;
+}
+
+/* Highscore Area  */
+.scorebox {
+    align-items: center;
+    padding: 3%;
+    margin-top: 60px;
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+    padding-top: 20px;
+}
+
+.scoretitle {
+
+}
+
+.scorebox input {
+    padding: 10px;
+    border: white;
+    background-color: rgb(192, 192, 192);
+    font-style: bold;
+}
+
+.scorebox button {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.scorebox button:hover {
+    background-color: red;
+}
+
+#h-list {
+    margin-top: 60px;
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+    padding-top: 20px;
+}
+
