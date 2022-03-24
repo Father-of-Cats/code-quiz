@@ -55,33 +55,32 @@ var questionList = {
     // Question Arrays
     questionArrays: [
         "What does HTML Stand For?",
-        "Second",
-        "Third",
-        "Fourth",
-        "Fifth",
-        "Sixth",
-        "Seventh"
+        "What is the name given to Internet technologies supporting user collaboration and data exchange?",
+        "What are examples of a scripted language?",
+        "Which database in the list is Open Source?",
+        "Select an example of a server-side programming language:",
+        "What program can be used on a Windows computer to access a command prompt on a Unix/Linux server?",
+        "Which Question Is Correct?(Freebie)"
     ],
     // Correct Answer Array
     correctAnswers: [
         "HyperText Markup Language",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
+        "Web 2.0",
+        "PHP",
+        "MySQL",
+        "Perl",
+        "putty.exe",
+        "This One"
     ],
     // Wrong answers nested arrray
     incorrectAnswers: [
         ["HighlyToxic Marketing Lobby","Holy Titled Money Layer","Nothing"],
-        ["wrong","wrong","wrong"],
-        ["wrong","wrong","wrong"],
-        ["wrong","wrong","wrong"],
-        ["wrong","wrong","wrong"],
-        ["wrong","wrong","wrong"],
-        ["wrong","wrong","wrong"],
-        ["wrong","wrong","wrong"],
+        ["SQL Server","Mobile technology","Android"],
+        ["Enlish","C++","Objective-C"],
+        ["SQL Server","Oracle","Apache"],
+        ["JavaScript","HTML","CSS"],
+        ["SQL Server","cmd","Internet Explorer"],
+        ["Not This One","Not This One","Not This One"]
     ]
 };
 
